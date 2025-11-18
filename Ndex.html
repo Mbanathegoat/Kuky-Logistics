@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+
+    <link rel="stylesheet" href="styla.css" />
+</head>
+<body>
+
+    <div class="box">
+        <div class="top">
+            <H1>
+               How can we help ?!
+            </H1>        </div>
+        <div class="mid">
+            <div class="chat">
+                <h2>Tell us what's up?</h2>
+                <p id="chatlog">Go on</p>
+            </div>
+        </div>
+        <div class="input">
+            <input type="text" onkeydown="if (event.keycode == 13) {talk() }" placeholder=".*.*.*Send message" />
+        </div>
+    </div>
+
+
+    <script type="text/javascript" src="app.js"></script>
+</body>
+</html>
